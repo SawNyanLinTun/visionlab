@@ -1,0 +1,31 @@
+{
+    "model": "ShapeCNN",
+    "dataset": "Synthetic Shapes",
+    "classes": [
+        "circle",
+        "square",
+        "triangle"
+    ],
+    "test_accuracy": 0.9629629629629629,
+    "test_loss": 0.14123562279122848,
+    "test_count": 135,
+    "correct_predictions": 130,
+    "confusion_matrix_rows_true_cols_pred": [
+        [
+            42,
+            1,
+            2
+        ],
+        [
+            1,
+            44,
+            0
+        ],
+        [
+            1,
+            0,
+            44
+        ]
+    ],
+    "best_validation_accuracy": 0.9629629629629629
+}
